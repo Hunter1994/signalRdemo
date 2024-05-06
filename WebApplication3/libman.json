@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/js/signalr/"
+    },
+    {
+      "library": "@microsoft/signalr-protocol-msgpack@8.0.0",
+      "destination": "wwwroot/js/signalr/",
+      "files": [
+        "dist/browser/signalr-protocol-msgpack.js",
+        "dist/browser/signalr-protocol-msgpack.min.js"
+      ]
+    }
+  ]
+}
